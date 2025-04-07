@@ -1,0 +1,206 @@
+./uiua-lang xx ./programming
+./translating-cli-to-function-calls xx ./operating-systems
+./lucid-dreaming xx ./mind
+./jp-dictionary xx ./japanese
+./message-based-cpu-architecture xx ./hardware
+./software xx ./home ./programming ./linux ./ime ./cli-alternative ./cli-manga ./cli-movie-streaming ./terminals ./text-editor ./embeded-web-browsers ./notifications ./audio-mixers ./browsers ./terminal-file-explorers ./process-monitors ./network-manager ./sway ./neovim ./nushell ./mpv ./pueue ./discord ./git ./nasm ./krita ./systemd ./apkg-file-format ./python-or-js-shell ./sway-config ./window-manager ./nvim-shada ./system-widgets ./git-binary-files ./better-shell
+./lisp-syntax-compatibility xx ./programming
+./daily-review xx ./weekly
+./linux xx ./software
+./common-lisp xx ./programming ./roguelike-in-lisp
+./parallel-programming xx ./programming ./c ./rust
+./video-editing xx ./home
+./korean-grammar xx ./korean
+./reading xx ./home
+./dnd-tools xx ./dungeons-and-dragons
+./notifications xx ./software
+./today xx ./weekly ./daily ./tasks ./daily-review ./productivity ./procrastination ./good-habits-to-have
+./japanese-notes xx ./japanese
+./monero xx ./interests ./cryptography
+./lambda-calculus xx ./programming
+./algorithms-and-data-structures xx ./programming
+./ad-hoc-polymorphism xx ./1ml
+./ancient-greek xx ./languages
+./setup-pkm xx ./projects ./inbox ./getting-back-on-track
+./health xx ./home ./increasing-resistance-to-cold
+./cloud-abi xx ./operating-systems
+./kouka xx ./programming
+./simple-cpu-architecture xx ./hardware
+./window-manager xx ./software ./niri ./status-bar
+./latin xx ./languages
+./java-script xx ./programming ./type-script
+./refold-1 xx ./refold
+./clojure xx ./programming
+./how-to xx ./home ./mounting-file-systems-without-permission-support ./vim-changing-case ./git-remote-on-external-drive
+./posessions xx ./life ./money
+./active-reading xx ./learning
+./ime xx ./software
+./assembly xx ./programming ./nasm
+./continuous-improvement xx ./productivity
+./roguelike-in-lisp xx ./game-development ./common-lisp
+./philosophy xx ./home
+./korean-pronounciation xx ./korean
+./text-editor xx ./software
+./gaming xx ./interests
+./work-with-uncle xx ./life
+./projects xx ./home ./programming
+./my-operating-system xx ./operating-systems ./os-in-rust ./my-os-messages-and-actors ./idl ./multitasking
+./mind xx ./home ./horror ./litany-of-fear ./lucid-dreaming ./meditation ./people
+./agile-results xx ./task-systems ./continuous-improvement
+./file-organization xx ./home ./life-system ./resources
+./marketing xx ./home
+./privacy xx ./home
+./sway-config xx ./software
+./writing xx ./home
+./c xx ./programming ./c-makefile ./build-your-own-lisp ./c-compiler
+./immersion-notes xx ./japanese
+./buying-piano xx ./music
+./graphs xx ./software
+./srs-card-types xx ./refold
+./martial-arts xx ./home ./workout
+./piano xx ./music
+./life-system xx ./life ./setup-pkm ./super-system ./my-identity ./new-file-organization ./automation ./productivity ./turning-dead-time-into-alive-time ./learning ./keyboard-modification ./inbox ./resources ./smart-goals ./habits ./habits ./time-management ./task-systems ./routine-system ./calendar ./tmp
+./modular-kernel xx ./operating-systems
+./productivity xx ./home ./concious-entertainment ./daily-review ./dreams ./entertainment ./kaizen ./life-needs ./maintanance-time ./paper-clip-strategy ./task-systems ./time-allocation ./weekly-review ./events ./continuous-improvement ./todo
+./pop-up-dictionary xx ./languages
+./resources xx ./home ./no ./notification ./white-noise ./yes
+./languages xx ./home ./language-learning ./prepare-language-learning-system ./refold ./anki ./sentence-mining ./pop-up-dictionary ./japanese ./korean ./chinese ./russian ./ancient-greek ./spanish ./latin
+./my-pl xx ./programming
+./refold-0 xx ./refold
+./super-sytem-ideas xx ./super-system
+./active-immersion xx ./refold
+./driving xx ./home
+./moving-out xx ./life ./work-with-uncle ./reduce-posessions ./notebox ./hierarchy-of-needs
+./tulpa xx ./home ./tulpa-role-playing-framework ./wonderland
+./browsers xx ./software
+./ttrpg xx ./dungeons-and-dragons
+./clearing xx ./home ./system-setup ./hardware ./my-operating-system ./os-ideas ./system-update ./life-system ./getting-things-done ./gtd-takeaways ./routine-system ./phone-inbox ./resources ./rust ./rust-scripting ./5-months-plan ./system-update ./conlanging-tasks ./setup-pkm ./job ./moving-out ./things-to-buy ./clearing-phone ./life-system ./my-identity ./srs-system ./refold ./tulpa ./super-system ./life ./stenography ./new-file-format ./new-file-organization ./projects ./software ./home ./notebox ./resources ./file-organization ./new-file-organization ./clearing-phone ./programming ./c
+./life xx ./home ./job ./moving-out ./work-with-uncle ./things-to-buy ./car-license ./posessions ./money ./life-system ./habits ./note-making
+./japanese xx ./languages ./japanese-inbox ./jp-dictionary ./jp-immersion-content ./japanese-notes ./pitch-accent ./srs-system ./japanese-without-kana ./manga ./refold ./jp-immersion-content
+./os-ideas xx ./operating-systems
+./nvim-shada xx ./software
+./os-in-rust xx ./operating-systems ./rust ./nasm
+./my-programming-language xx ./programming ./my-pl ./my-pl ./kouka ./my-pl ./my-pl-concurrency ./my-pl-control-flow ./my-pl-format ./my-pl-type-system ./my-pl-value-representation ./functions-only-one-argument ./new-msv-lang ./tmp
+./hardware-monad xx ./operating-systems
+./increasing-resistance-to-cold xx ./health
+./basic-mathematics-notes xx ./math
+./cpu-architecture xx ./home ./cpu-isa ./lambda-calculus-cpu ./message-based-cpu-architecture ./simple-cpu-isa ./simple-cpu-architecture
+./srs-recommendations xx ./refold
+./task-systems xx ./productivity ./getting-things-done ./zen-to-done ./gtd-lite ./agile-results ./task-and-time-management-methods ./biologica-prime-time ./smart-goals ./daily-scheduling
+./dungeons-and-dragons xx ./home ./ttrpg ./dnd-rules ./dnd-tools ./adrie-liadon ./dragons-of-stormwreck-isle-session
+./automation xx ./home
+./file-format xx ./home
+./srs-system xx ./home ./srs-card-types ./srs-recommendations ./srs-card-creation
+./adrie-liadon xx ./dungeons-and-dragons
+./krita xx ./software
+./touch-typing xx ./home
+./reviews xx ./interests
+./python-or-js-shell xx ./software
+./neovim xx ./software ./nvim ./nvim-data ./mastering-vim-quickly ./vim-cheatsheet
+./better-shell xx ./software
+./rust-plugin-system xx ./rust ./target
+./quotes xx ./home
+./rust-async-executor xx ./rust
+./process-monitors xx ./software
+./smartwatch xx ./hardware
+./things-to-buy xx ./life ./car-license
+./operating-systems xx ./interests ./c ./assembly ./os-in-rust ./my-operating-system ./simple-os-in-c ./os-ideas ./translating-cli-to-function-calls ./hardware-monad ./cloud-abi ./elf-file-format ./modular-kernel ./multitasking
+./piracy xx ./home
+./weekly xx ./home ./maybe ./projects ./daily-review ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily ./daily
+./interests xx ./home ./astronomy ./conlanging ./cpu-architecture ./cryptography ./drawing ./driving ./dungeons-and-dragons ./game-development ./gaming ./hardware ./health ./horror ./languages ./lucid-dreaming ./marketing ./martial-arts ./math ./meditation ./monero ./music ./operating-systems ./philosophy ./piracy ./privacy ./productivity ./programming ./reading ./reviews ./roguelike ./speaking ./tetris ./touch-typing ./tulpa ./video-editing ./web-development ./workout ./writing
+./multitasking xx ./my-operating-system
+./idl xx ./my-operating-system
+./haskell xx ./programming
+./horror xx ./home ./litany-of-fear ./reviews
+./type-script xx ./programming ./java-script
+./dune xx ./home
+./japanese-inbox xx ./japanese
+./levels-of-comprehension xx ./refold
+./people xx ./mind
+./sentence-mining xx ./refold
+./go xx ./programming
+./verse xx ./programming
+./workout xx ./home ./physical-performance-during-day ./martial-arts
+./markdown xx ./programming
+./refold xx ./languages ./refold-0 ./refold-1 ./refold-2 ./active-immersion ./sentence-mining ./levels-of-comprehension ./srs-card-types ./srs-recommendations
+./money xx ./life
+./audio-mixers xx ./software
+./c-makefile xx ./build
+./git-annex xx ./git
+./job xx ./life ./freelance ./moving-out ./work-with-uncle ./hierarchy-of-needs ./freelance ./programming ./freelance ./algorithms-and-data-structures
+./pueue xx ./software
+./zig xx ./programming
+./elf-file-format xx ./operating-systems
+./status-bar xx ./super-system
+./systemd xx ./software
+./learning xx ./home ./making-good-notes ./noma-method ./language-learning ./achieve-more-while-studying ./interleaving-vs-spaced-repetition ./teach-yourself-anything ./concious-entertainment ./feynman-technique ./ultralearning ./remember-what-you-read ./active-reading
+./litany-of-fear xx ./mind
+./astronomy xx ./home
+./web-development xx ./home ./programming ./type-script ./java-script ./html ./css
+./entertainment xx ./home ./reading ./horror ./japanese ./reviews ./horror
+./terminal-file-explorers xx ./software
+./terminals xx ./software
+./stenography xx ./projects
+./dragons-of-stormwreck-isle-session xx ./dungeons-and-dragons
+./hardware xx ./home ./programming ./software ./operating-systems ./assembly ./simple-cpu-isa ./simple-cpu-architecture ./message-based-cpu-architecture ./technology ./smartwatch
+./pitch-accent xx ./japanese
+./embeded-web-browsers xx ./software
+./simple-os-in-c xx ./operating-systems
+./korean xx ./languages ./korean-grammar ./korean-pronounciation
+./discord xx ./software
+./jp-immersion-content xx ./japanese
+./pkm xx ./home ./pkm-tools ./pkm-on-os-level ./pkm-guidelines ./note-system ./setup-pkm ./noma-method ./university-note-taking
+./html xx ./programming ./web-development ./css
+./naming xx ./home
+./habits xx ./bright-line ./paper-clip-strategy
+./networking xx ./programming
+./japanese-without-kana xx ./japanese
+./car-license xx ./life
+./tasks xx ./home ./good-habits-to-have ./daily-review ./continuous-improvement ./productivity ./window-manager ./system-update ./how-to ./procrastination ./mind ./good-habits-to-have ./mind ./job ./how-to ./agile-results ./task-systems ./tomoe ./notebox ./procrastination ./feelings ./world-building ./window-manager ./things-to-buy ./my-identity ./algorithms-and-data-structures ./algorithms-and-data-structures ./procrastination ./world-building ./concious-entertainment
+./tetris xx ./home
+./super-system xx ./projects ./super-system-notes ./super-sytem-ideas ./window-manager ./status-bar ./rust ./better-browser ./display-volume ./manga ./network ./notes ./pueue ./toggle-brightness
+./vim-cheatsheet xx ./neovim
+./speaking xx ./home
+./manga xx ./japanese
+./concepts xx ./home ./hierarchy-of-needs ./instrumental-convergence ./willpower ./flow ./major-memory-system
+./math xx ./home ./math-operation-order ./use-mathematics-to-define-the-law ./basic-mathematics-notes
+./build-your-own-lisp xx ./programming ./c
+./spanish xx ./languages
+./good-habits-to-have xx ./habits
+./rust xx ./programming ./game-development ./rust-scripting ./rust-gui ./rust-async-executor ./rust-plugin-system
+./programming xx ./home ./c-compiler ./build-your-own-lisp ./my-programming-language ./lisp-syntax-compatibility ./format-for-linear-programming-language ./linear-programming-language ./programming-language-ideas ./ad-hoc-polymorphism ./algebraic-effect-handlers ./dynamic-language-ideas ./idl ./lambda-calculus-cpu ./message-based-cpu-architecture ./1ml ./assembly ./c ./clojure ./common-lisp ./css ./html ./java-script ./markdown ./nix ./python ./rust ./type-script ./uiua-lang ./verse ./kouka ./lambda-calculus ./haskell ./go ./zig ./parallel-programming ./simple-os-in-c ./file ./file
+./srs-card-creation xx ./srs-system ./japanese ./languages ./srs-system
+./home xx ./today ./inbox ./weekly ./projects ./maybe ./tasks ./clearing ./notebox ./life ./software ./hardware ./resources ./automation ./learning ./entertainment ./mind ./interests ./concepts ./file-format ./pkm ./turning-dead-time-into-alive-time ./global-language ./github-pull-requests ./naming ./cal ./dreams ./log ./quotes ./how-to
+./sway xx ./software ./sway-config ./window-manager
+./gpg xx ./software
+./cli-movie-streaming xx ./software
+./tulpa-role-playing-framework xx ./tulpa
+./wonderland xx ./tulpa
+./meditation xx ./mind
+./drawing xx ./home ./krita
+./anki xx ./software
+./game-development xx ./home ./rust ./gaming ./roguelike-in-lisp
+./new-file-organization xx ./life-system ./file-organization ./resources ./secrets
+./system-update xx ./projects ./software ./calendar
+./nasm xx ./software
+./my-identity xx ./home
+./music xx ./home ./piano ./buying-piano ./learning-piano
+./super-system-notes xx ./super-system
+./nix xx ./programming
+./rust-gui xx ./rust
+./daily-template xx ./weekly ./daily
+./network-manager xx ./software
+./clearing-phone xx ./projects ./phone-inbox
+./chinese xx ./languages ./articles ./wubi
+./dnd-rules xx ./dungeons-and-dragons
+./freelance xx ./job ./algorithms-and-data-structures ./programming ./privacy ./marketing
+./css xx ./programming ./web-development ./html
+./python xx ./programming
+./russian xx ./languages
+./c-compiler xx ./programming ./rust ./assembly ./out
+./conlanging xx ./home ./conlang-ideas ./new-simple-conlang
+./refold-2 xx ./refold
+./cryptography xx ./interests ./monero ./math
+./technology xx ./hardware
+./cpu-isa xx ./cpu-architecture ./tmp
+./maybe xx ./home ./mind ./mind ./dragons-of-stormwreck-isle-session ./dnd-tools ./dnd-character-creator ./mind ./smart-goals ./habits ./hierarchy-of-needs ./mind ./languages ./interesting-programming-languages ./concious-entertainment ./continuous-improvement ./concious-entertainment ./good-habits-to-have ./reevaluate-english ./notebox ./sway-config ./better-eating ./mind ./setup-life-system ./setup-life-system-tools ./life-system ./notebox ./notebox ./getting-back-on-track ./work-on-calendar ./reduce-posessions ./habits ./mind ./note-making ./things-to-buy

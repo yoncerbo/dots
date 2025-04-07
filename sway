@@ -1,0 +1,10 @@
+default_border pixel 3
+hide_edge_borders smart
+
+smart_gaps on
+gaps inner 30
+gaps outer 10
+
+bindsym Alt+R reload
+
+bindsym Alt+D exec foot
