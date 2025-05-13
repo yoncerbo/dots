@@ -1,8 +1,6 @@
 (defcfg
   movemouse-inherit-accel-state yes
   log-layer-changes no
-  process-unmapped-keys yes
-  linux-dev /dev/input/event0:/dev/input/mouse1
 )
 
 (include

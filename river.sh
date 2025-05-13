@@ -9,6 +9,16 @@
 # smart gaps
 # no client side decorations
 
+source /d/scripts/startup.sh
+
+export NIXOS_OZONE_WL = "1";
+export GTK_IM_MODULE = "fcitx";
+export QT_IM_MODULE = "fcitx";
+export XMODIFIERS = "@im=fcitx";
+export SDL_IM_MODULE = "fcitx";
+export GLFW_IM_MODULE = "ibus";
+export QT_QPA_PLATFORM = "wayland";
+
 otd-daemon &
 
 riverctl spawn "pkill wob || mkfifo /tmp/wob || tail -f /tmp/wob | wob &"
