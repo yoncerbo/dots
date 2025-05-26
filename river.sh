@@ -10,9 +10,9 @@
 # no client side decorations
 
 # source /d/scripts/startup.sh
-mako &
-foot --server &
-fcitx --enable wayland-ime -rd
+# mako &
+# foot --server &
+# fcitx --enable wayland-ime -rd
 
 export NIXOS_OZONE_WL = "1";
 export GTK_IM_MODULE = "fcitx";
@@ -105,6 +105,10 @@ done
 all_tags=$(((1 << 32) - 1))
 riverctl map normal Super 0 set-focused-tags $all_tags
 riverctl map normal Super+Control 0 set-view-tags $all_tags
+
+riverctl map normal Super+Alt Q spawn "fcitx5-remote -s keyboard-pl"
+riverctl map normal Super+Alt W spawn "fcitx5-remote -s mozc"
+riverctl map normal Super+Alt E spawn "fcitx5-remote -s hangul"
 
 riverctl map normal Super semicolon spawn "nu /s/dot/scripts/ime-switch.nu"
 riverctl map normal Super+Shift semicolon spawn "nu /s/dot/scripts/ime-menu.nu"
