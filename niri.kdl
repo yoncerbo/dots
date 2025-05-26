@@ -115,7 +115,7 @@ binds {
     Mod+q { quit; }
     Mod+Shift+q { spawn "systemctl" "hibernate"; }
     Mod+w { spawn "/f/msg" "cmd menu"; }
-    Mod+e { spawn "wofi" "--show" "drun" "-G" "-M" "fuzzy"; }
+    Mod+e { spawn "fuzzel" "--config=/s/dot/fuzzel.ini"; }
     Mod+Shift+e { spawn "footclient" "wofi" "--show" "run" "-G" "-M" "fuzzy"; }
     Mod+r { switch-preset-column-width; }
     Mod+Shift+r { spawn "sh" "-c" "nmcli d wifi rescan && notify-send 'Scanning for wifi...' -t 1000"; }

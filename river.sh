@@ -9,7 +9,10 @@
 # smart gaps
 # no client side decorations
 
-source /d/scripts/startup.sh
+# source /d/scripts/startup.sh
+mako &
+foot --server &
+fcitx --enable wayland-ime -rd
 
 export NIXOS_OZONE_WL = "1";
 export GTK_IM_MODULE = "fcitx";
@@ -29,7 +32,7 @@ riverctl spawn "mako"
 riverctl map normal Super N spawn "footclient nvim"
 riverctl map normal Super T spawn "footclient"
 
-riverctl map normal Super E spawn "fuzzel -b 000000ff -s 14213dff -S fca311ff -C fca311ff -x 8 -w 50"
+riverctl map normal Super E spawn "fuzzel --config=/s/dot/fuzzel.ini"
 riverctl map normal Super Q close
 riverctl map normal Super+Shift Q exit
 riverctl map normal Super Escape spawn "systemctl sleep"
@@ -103,8 +106,8 @@ all_tags=$(((1 << 32) - 1))
 riverctl map normal Super 0 set-focused-tags $all_tags
 riverctl map normal Super+Control 0 set-view-tags $all_tags
 
-riverctl map normal Super semicolon spawn "nu /d/scripts/ime-switch.nu"
-riverctl map normal Super+Shift semicolon spawn "nu /d/scripts/ime-menu.nu"
+riverctl map normal Super semicolon spawn "nu /s/dot/scripts/ime-switch.nu"
+riverctl map normal Super+Shift semicolon spawn "nu /s/dot/scripts/ime-menu.nu"
 
 riverctl map normal Super slash spawn "makoctl dismiss -a"
 riverctl map normal Super+Shift slash spawn "makoctl invoke"
@@ -120,7 +123,7 @@ riverctl map normal Super+Alt H  spawn 'playerctl previous'
 riverctl map normal Super+Alt L  spawn 'playerctl next'
 riverctl map normal Super+Shift U spawn 'brightnessctl set +5%'
 riverctl map normal Super U spawn 'brightnessctl set 5%-'
-riverctl map normal Super C spawn 'nu /d/scripts/copy-password.nu'
+riverctl map normal Super C spawn 'nu /s/dot/scripts/copy-password.nu'
 
 # Super+{Up,Right,Down,Left} to change layout orientation
 riverctl map normal Super Up    send-layout-cmd rivertile "main-location top"

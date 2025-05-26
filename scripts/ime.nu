@@ -15,7 +15,7 @@ def "ime choose" [] {
   let ime = (open $ime_state | lines | first 2)
 
   fcitx5-remote -s keyboard-pl
-  let choice = (ime all | str join "\n" | wofi --show dmenu -G | str trim)
+  let choice = (ime all | str join "\n" | fuzzel --path=/s/dot/fuzzel.ini --dmenu | str trim)
   let choice = (if $choice == "" {$ime.1} else {$choice})
   fcitx5-remote -s $choice
 
