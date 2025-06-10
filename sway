@@ -5,6 +5,6 @@ smart_gaps on
 gaps inner 30
 gaps outer 10
 
-bindsym Alt+R reload
+bindsym Super+R reload
 
-bindsym Alt+D exec foot
+bindsym Super+T exec foot
