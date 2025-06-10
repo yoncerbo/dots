@@ -32,11 +32,10 @@ riverctl spawn "mako"
 riverctl map normal Super N spawn "footclient nvim"
 riverctl map normal Super T spawn "footclient"
 
+riverctl map normal Super W spawn "nu /s/dot/scripts/action-menu.nu"
 riverctl map normal Super E spawn "fuzzel --config=/s/dot/fuzzel.ini"
 riverctl map normal Super Q close
 riverctl map normal Super+Shift Q exit
-riverctl map normal Super Escape spawn "systemctl sleep"
-riverctl map normal Super+Shift Escape spawn "systemctl hibernate"
 
 riverctl map normal Super J focus-view next
 riverctl map normal Super K focus-view previous
@@ -110,9 +109,6 @@ riverctl map normal Super+Alt Q spawn "fcitx5-remote -s keyboard-pl"
 riverctl map normal Super+Alt W spawn "fcitx5-remote -s mozc"
 riverctl map normal Super+Alt E spawn "fcitx5-remote -s hangul"
 
-riverctl map normal Super semicolon spawn "nu /s/dot/scripts/ime-switch.nu"
-riverctl map normal Super+Shift semicolon spawn "nu /s/dot/scripts/ime-menu.nu"
-
 riverctl map normal Super slash spawn "makoctl dismiss -a"
 riverctl map normal Super+Shift slash spawn "makoctl invoke"
 riverctl map normal Super Space spawn "playerctl play-pause"
@@ -123,11 +119,9 @@ riverctl map normal Super+Shift I  spawn 'pamixer -i 5'
 riverctl map normal Super I  spawn 'pamixer -d 5'
 riverctl map normal Super M spawn 'pamixer --toggle-mute'
 riverctl map normal Super+Alt H  spawn 'playerctl previous'
-
 riverctl map normal Super+Alt L  spawn 'playerctl next'
 riverctl map normal Super+Shift U spawn 'brightnessctl set +5%'
 riverctl map normal Super U spawn 'brightnessctl set 5%-'
-riverctl map normal Super C spawn 'nu /s/dot/scripts/copy-password.nu'
 
 # Super+{Up,Right,Down,Left} to change layout orientation
 riverctl map normal Super Up    send-layout-cmd rivertile "main-location top"
@@ -142,7 +136,6 @@ riverctl declare-mode passthrough
 # Super+F11 to enter passthrough mode
 riverctl map normal Super F11 enter-mode passthrough
 
-# Super+F11 to return to normal mode
 riverctl map passthrough Super F11 enter-mode normal
 
 # Various media key mapping examples for both normal and locked mode which do
@@ -174,6 +167,10 @@ riverctl border-color-unfocused 0x000000
 riverctl border-width 3
 
 riverctl keyboard-layout pl
+
+# Gamepad mappings
+riverctl map normal None F13 spawn 'lutris'
+riverctl map normal None F14 spawn 'steam'
 
 # Set keyboard repeat rate
 riverctl set-repeat 50 300
