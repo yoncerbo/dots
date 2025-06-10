@@ -39,16 +39,13 @@ riverctl map normal Super+Shift Q exit
 
 riverctl map normal Super J focus-view next
 riverctl map normal Super K focus-view previous
-riverctl map normal Super L swap next
-riverctl map normal Super H swap previous
+riverctl map normal Super+Shift J swap next
+riverctl map normal Super+Shift K swap previous
 
-# Super+Period and Super+Comma to focus the next/previous output
-riverctl map normal Super Period focus-output next
-riverctl map normal Super Comma focus-output previous
-
-# Super+Shift+{Period,Comma} to send the focused view to the next/previous output
-riverctl map normal Super+Shift Period send-to-output next
-riverctl map normal Super+Shift Comma send-to-output previous
+riverctl map normal Super H focus-output previous
+riverctl map normal Super L focus-output next
+riverctl map normal Super+Shift H send-to-output previous
+riverctl map normal Super+Shift L send-to-output next
 
 # Super+Return to bump the focused view to the top of the layout stack
 riverctl map normal Super Return zoom
@@ -68,10 +65,10 @@ riverctl map normal Super Return zoom
 # riverctl map normal Super+Alt L move right 100
 
 # Super+Alt+Control+{H,J,K,L} to snap views to screen edges
-riverctl map normal Super+Shift H snap left
-riverctl map normal Super+Shift J snap down
-riverctl map normal Super+Shift K snap up
-riverctl map normal Super+Shift L snap right
+# riverctl map normal Super+Shift H snap left
+# riverctl map normal Super+Shift J snap down
+# riverctl map normal Super+Shift K snap up
+# riverctl map normal Super+Shift L snap right
 
 # Super+Alt+Shift+{H,J,K,L} to resize views
 # riverctl map normal Super+Shift H resize horizontal -100
