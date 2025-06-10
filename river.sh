@@ -134,9 +134,9 @@ riverctl map normal Super Left  send-layout-cmd rivertile "main-location left"
 riverctl declare-mode passthrough
 
 # Super+F11 to enter passthrough mode
-riverctl map normal Super F11 enter-mode passthrough
+riverctl map normal Super+Shift p enter-mode passthrough
 
-riverctl map passthrough Super F11 enter-mode normal
+riverctl map passthrough Super+Shift p enter-mode normal
 
 # Various media key mapping examples for both normal and locked mode which do
 # not have a modifier
