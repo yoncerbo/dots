@@ -1,8 +1,0 @@
-(defcfg
-  movemouse-inherit-accel-state yes
-  log-layer-changes no
-)
-
-(include
-  /d/nix/kanata.kbd
-)
