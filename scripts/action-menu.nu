@@ -27,6 +27,6 @@ let actions = {
   "Lock": { hyprlock }
 }
 
-let selection = ($actions | columns | str join "\n" | fuzzel --config=/s/dot/fuzzel.ini --dmenu)
+let selection = ($actions | columns | str join "\n" | fuzzel --dmenu)
 if $selection == "" { exit }
 do ($actions | get $selection)
