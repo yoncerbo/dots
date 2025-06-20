@@ -33,7 +33,7 @@ riverctl map normal Super N spawn "footclient nvim"
 riverctl map normal Super T spawn "footclient"
 
 riverctl map normal Super W spawn "nu /s/dot/scripts/action-menu.nu"
-riverctl map normal Super E spawn "fuzzel --config=/s/dot/fuzzel.ini"
+riverctl map normal Super E spawn "fuzzel"
 riverctl map normal Super Q close
 riverctl map normal Super+Shift Q exit
 
@@ -42,10 +42,15 @@ riverctl map normal Super K focus-view previous
 riverctl map normal Super+Shift J swap next
 riverctl map normal Super+Shift K swap previous
 
-riverctl map normal Super H focus-output previous
-riverctl map normal Super L focus-output next
-riverctl map normal Super+Shift H send-to-output previous
-riverctl map normal Super+Shift L send-to-output next
+riverctl map normal Super H focus-output DP-1
+riverctl map normal Super L focus-output DP-2
+riverctl map normal Super+Shift H send-to-output -current-tags DP-1 # left
+riverctl map normal Super+Shift L send-to-output -current-tags DP-2 # right
+
+riverctl map normal Super P spawn "wlr-randr --output DP-1 --toggle && wlr-randr --output DP-2 --toggle"
+riverctl map normal Super R spawn "networkmanager_dmenu"
+riverctl map normal Super Y spawn "bzmenu --launcher fuzzel"
+
 
 # Super+Return to bump the focused view to the top of the layout stack
 riverctl map normal Super Return zoom
@@ -88,7 +93,7 @@ riverctl map-pointer normal Super BTN_MIDDLE toggle-float
 riverctl map normal Super Tab focus-previous-tags
 riverctl map normal Super+Control Tab send-to-previous-tags
 
-keys="123456789FDSA"
+keys="12345ASDF"
 for (( i=0; i<${#keys}; i++ )); do
   tags=$((1 << $i))
   key=${keys:$i:1}
@@ -159,15 +164,11 @@ do
 done
 
 riverctl background-color 0x000000
-riverctl border-color-focused 0xbbbbbb
-riverctl border-color-unfocused 0x000000
-riverctl border-width 3
+riverctl border-color-focused 0xfca311
+riverctl border-color-unfocused 0x14213d
+riverctl border-width 1
 
 riverctl keyboard-layout pl
-
-# Gamepad mappings
-riverctl map normal None F13 spawn 'lutris'
-riverctl map normal None F14 spawn 'steam'
 
 # Set keyboard repeat rate
 riverctl set-repeat 50 300
