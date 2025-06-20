@@ -1,3 +1,4 @@
+let screenshot_dir = "/f/images/screenshots/"
 
 let actions = {
   Hibernate: { systemctl hibernate }
@@ -25,6 +26,10 @@ let actions = {
     wlr-randr --output DP-2 --transform (if $current == "90" { "normal" } else { "90" })
   }
   "Lock": { hyprlock }
+  "Screenshot all": { cd $screenshot_dir; grim }
+  "Screenshot selection": { cd $screenshot_dir; grim -g (slurp) }
+  "Screenshot left": { cd $screenshot_dir; grim -o DP-1 }
+  "Screenshot right": { cd $screenshot_dir; grim -o DP-2 }
 }
 
 let selection = ($actions | columns | str join "\n" | fuzzel --dmenu)
