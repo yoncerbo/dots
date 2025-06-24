@@ -14,7 +14,7 @@ let actions = {
   "Rebuild nixos": { sudo nixos-rebuild switch; notify-send "Finished rebuilding nixos" -t 1000}
   "Select sink": {
     let sinks = (pactl list sinks short | lines | split column "\t" index name)
-    let index = ($sinks.name | str join "\n" | fuzzel --config=/s/dot/fuzzel.ini --dmenu --index)
+    let index = ($sinks.name | str join "\n" | fuzzel --dmenu --index)
     if $index == "" { exit }
     let sink = ($sinks.name | get ($index | into int))
     pactl set-default-sink $sink
@@ -30,6 +30,14 @@ let actions = {
   "Screenshot selection": { cd $screenshot_dir; grim -g (slurp) }
   "Screenshot left": { cd $screenshot_dir; grim -o DP-1 }
   "Screenshot right": { cd $screenshot_dir; grim -o DP-2 }
+  "Monitor brightness zero": { 
+    job spawn { ddcutil setvcp 10 0 --display 1 }
+    job spawn { ddcutil setvcp 10 0 --display 2 }
+  }
+  "Monitor brightness hundred": { 
+    job spawn { ddcutil setvcp 10 100 --display 1 }
+    job spawn { ddcutil setvcp 10 100 --display 2 }
+  }
 }
 
 let selection = ($actions | columns | str join "\n" | fuzzel --dmenu)
